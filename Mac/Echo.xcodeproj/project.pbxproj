@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11F912CCAC49A64B38E2A9D9 /* libPods-Echo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D99B640572F55C82693F1351 /* libPods-Echo.a */; };
 		6931BE3A238E8A0000C8203D /* ECODarkModeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6931BE38238E8A0000C8203D /* ECODarkModeHelper.m */; };
 		694C5552233A236000D61F45 /* ECODeviceConnectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694C5551233A236000D61F45 /* ECODeviceConnectView.m */; };
 		6950EC4D22A6727E00CB9FC1 /* json-viewer.js in Resources */ = {isa = PBXBuildFile; fileRef = 6950EC4822A6727E00CB9FC1 /* json-viewer.js */; };
@@ -87,6 +86,7 @@
 		69C6241222F9279D00846B61 /* ECOTemplateH5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C6241022F9279D00846B61 /* ECOTemplateH5ViewController.xib */; };
 		69C6241722F92CCE00846B61 /* echoJS.js in Resources */ = {isa = PBXBuildFile; fileRef = 69C6241622F92CCE00846B61 /* echoJS.js */; };
 		69EB2EAC228A9A2B007E3D81 /* ECODevicesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EB2EAB228A9A2B007E3D81 /* ECODevicesListViewController.m */; };
+		8BEF6999BFD90D9524A3DA1A /* libPods-Echo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393C88626E77A05BCE2F3DDB /* libPods-Echo.a */; };
 		D5B1B08C22F40CD0004B8D60 /* ECOOlNodeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1B08B22F40CD0004B8D60 /* ECOOlNodeFactory.m */; };
 		D5B1B08E22F40CFD004B8D60 /* ECOOlNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1B08D22F40CFD004B8D60 /* ECOOlNode.m */; };
 		D5C8C7EA22FBC21F00258F3D /* ECOString.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C8C7E822FBC21F00258F3D /* ECOString.m */; };
@@ -94,6 +94,7 @@
 
 /* Begin PBXFileReference section */
 		0186AF232C070B7FB1ED0D3C /* Pods-Echo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Echo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Echo/Pods-Echo.debug.xcconfig"; sourceTree = "<group>"; };
+		393C88626E77A05BCE2F3DDB /* libPods-Echo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Echo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6931BE38238E8A0000C8203D /* ECODarkModeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECODarkModeHelper.m; sourceTree = "<group>"; };
 		6931BE39238E8A0000C8203D /* ECODarkModeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECODarkModeHelper.h; sourceTree = "<group>"; };
 		694C5550233A236000D61F45 /* ECODeviceConnectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECODeviceConnectView.h; sourceTree = "<group>"; };
@@ -237,7 +238,6 @@
 		D5B1B08D22F40CFD004B8D60 /* ECOOlNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECOOlNode.m; sourceTree = "<group>"; };
 		D5C8C7E822FBC21F00258F3D /* ECOString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECOString.m; sourceTree = "<group>"; };
 		D5C8C7E922FBC21F00258F3D /* ECOString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECOString.h; sourceTree = "<group>"; };
-		D99B640572F55C82693F1351 /* libPods-Echo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Echo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB08AC33675279D4FFFAD47F /* Pods-Echo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Echo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Echo/Pods-Echo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -246,7 +246,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F912CCAC49A64B38E2A9D9 /* libPods-Echo.a in Frameworks */,
+				8BEF6999BFD90D9524A3DA1A /* libPods-Echo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,7 +575,7 @@
 		E9A6DE8DDEE44AA784FBADF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D99B640572F55C82693F1351 /* libPods-Echo.a */,
+				393C88626E77A05BCE2F3DDB /* libPods-Echo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -916,8 +916,19 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 0.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"EchoSDK\"",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"Security\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.echo.desktop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -940,8 +951,19 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 0.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"EchoSDK\"",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"Security\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.echo.desktop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

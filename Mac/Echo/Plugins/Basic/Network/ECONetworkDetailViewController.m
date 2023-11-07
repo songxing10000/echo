@@ -10,7 +10,7 @@
 #import "ECONetworkOverviewViewController.h"
 #import "ECONetworkRequestViewController.h"
 #import "ECONetworkResponseViewController.h"
-#import <Masonry/Masonry.h>
+#import "Masonry.h"
 
 @interface ECONetworkDetailViewController ()
 @property (weak) IBOutlet NSBox *overviewBgBox;

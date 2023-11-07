@@ -8,7 +8,7 @@
 
 #import "ECOViewHierarchyListViewController.h"
 #import "ECOSelectableTextView.h"
-#import <Masonry/Masonry.h>
+#import "Masonry.h"
 
 @interface ECOViewHierarchyListViewController ()
 <NSOutlineViewDataSource,

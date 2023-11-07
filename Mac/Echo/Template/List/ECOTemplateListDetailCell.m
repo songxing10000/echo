@@ -7,7 +7,8 @@
 //
 
 #import "ECOTemplateListDetailCell.h"
-#import <Masonry/Masonry.h>
+
+#import "Masonry.h"
 
 @interface ECOTemplateListDetailCell()
 
